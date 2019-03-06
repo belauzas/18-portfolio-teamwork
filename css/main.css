@@ -118,7 +118,23 @@ body * {
  }
 
 /* Who is this for? */
-
+.item {
+    display: inline-block;
+    width: 200px;
+}
+.centered {
+    text-align: center;
+}
+.header {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.description {
+    font-size: 16px;
+}
+.item > img {
+    width: 100px;
+}
 
 /* How does it work */
 .top {
