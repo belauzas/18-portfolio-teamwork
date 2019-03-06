@@ -1,3 +1,10 @@
+:root {
+    --text-black: #010A13;
+    --text-blue: #1E2B58;
+    --text-green: #2CC14B;
+    --text-grey: #78909C;
+}
+
 body,
 body * {
     margin: 0;
@@ -53,15 +60,167 @@ body * {
 
 /* HEADER + HERO */
 
+/* .full-height{
+    min-height: 100vh;
+} */
+
+.header{
+    text-align: center;
+    border-bottom: 1px solid #ffffff
+}
+.header> img{
+    height: 80px;
+   margin: 20px;
+}
+ .header-container{
+     display: inline-block;
+     width: calc(100% - 200px);
+     margin: 0 100px;
+    position: relative;
+     padding: 30px 0;
+ }
+ .header-container>.text{
+     display: inline-block;
+     width: 60%;
+     float: left;
+     margin-top: 100px;
+    
+ }
+ .header-container>.text > *{
+    color: #ffffff
+ }
+ .header-container>.text >.big{
+     font-size: 30px;
+ }
+ .header-container>.text >.small{
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .header-container>.hero-image{
+     display: inline-block;
+     width: 40%;
+     float: left;
+  
+ }
+ .header-container>.hero-image> img{
+     display: inline-block;
+     width: 90%
+ }
+  .scroll-btn {
+
+    text-align: center;
+    float: right;
+    margin-top: 230px;
+ }
+  .scroll-btn>img {
+     height: 30px;
+ }
 
 /* Who is this for? */
 
 
 /* How does it work */
+.top {
+display: inline-block;
+width: 100%;
+text-align: center;
+font-size: 42px;
 
+}
 
+.container > #my-row {
+display: inline-block;
+background-color: #F8F9FE;
+}
+
+.container > #my-row > .column {
+display: inline-block;
+width: 220px;
+text-align: center;
+}
+
+.container > #my-row > .column > h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container > #my-row > .column > p {
+    text-align: center;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.container > #my-row > .column > img {
+    margin: 20px 0;
+}
 /* text + photo */
+#text_photo > .row {
+    padding: 80px 0;
+}
+#text_photo .texts {
+    display: inline-block;
+    width: 45%;
+    float: left;
+}
+    #text_photo .texts > .header {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+        #text_photo .texts > .header > .number {
+            display: inline-block;
+            width: 40px;
+            float: left;
+            color: var(--text-blue);
+            font-size: 48px;
+            line-height: 50px;
+        }
+        #text_photo .texts > .header > .title {
+            display: inline-block;
+            width: calc(100% - 40px);
+            float: left;
+            text-transform: uppercase;
+            color: var(--text-green);
+            font-size: 16px;
+            line-height: 18px;
+            margin-top: 7px;
+        }
+        #text_photo .texts > .header > .sub-title {
+            display: inline-block;
+            width: calc(100% - 40px);
+            float: left;
+            font-size: 16px;
+            line-height: 18px;
+            color: var(--text-blue);
+        }
+    #text_photo .texts > p {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--text-grey);
+    }
 
+#text_photo .images {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    position: relative;
+}
+    #text_photo .images > .gradient {
+        position: absolute;
+    }
+    #text_photo .images > img {
+        display: inline-block;
+        width: 80%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #text_photo .images > .icon {
+        position: absolute;
+    }
 
 /* footer */
 .footer{
@@ -77,16 +236,15 @@ h1{
 .company{
     display: inline-flex;
     margin: 10px 40px;
-    
-   
 }
-        .companies{
-            line-height: 15px;
-            font-size: 16px;
-            margin: 50px 0px
-        }
 
-        .logos{
-            width: 30px;
-            height: 30px;
-        }
+.companies{
+    line-height: 15px;
+    font-size: 16px;
+    margin: 50px 0px
+}
+
+    .logos{
+        width: 30px;
+        height: 30px;
+    }
