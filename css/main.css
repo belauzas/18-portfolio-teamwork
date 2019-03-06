@@ -41,12 +41,12 @@ h1{
 }
 .company{
     display: inline-flex;
-    margin: 40px 8px;
+    margin: 40px 25px;
     
    
 }
         .companies{
-            line-height: 30px;
+            line-height: 15px;
             font-size: 16px;
             
         }
