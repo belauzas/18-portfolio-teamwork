@@ -58,15 +58,38 @@ body * {
 
 
 /* How does it work */
+.top {
+display: inline-block;
+width: 100%;
+text-align: center;
+font-size: 42px;
+
+}
+
 .container > #my-row {
 display: inline-block;
-width: 100%;
-background-color: #e3e2e2;
+background-color: #F8F9FE;
 }
+
 .container > #my-row > .column {
 display: inline-block;
-width: 100%;
+width: 25%;
 float: left;
+}
+
+.container > #my-row > .column > h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container > #my-row > .column > p {
+    text-align: center;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.container > #my-row > .column > img {
+    margin: 20px 0;
 }
 /* text + photo */
 
