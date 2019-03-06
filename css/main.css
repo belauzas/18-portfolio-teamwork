@@ -4,6 +4,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -15,6 +16,40 @@ body * {
         width: 1200px;
         margin: 0 calc(50% - 600px);
     }
+    @media ( max-width: 1300px ) {
+        .container > .row {
+            width: 900px;
+            margin: 0 calc(50% - 450px);
+        }
+    }
+    @media ( max-width: 1000px ) {
+        .container > .row {
+            width: 760px;
+            margin: 0 calc(50% - 380px);
+        }
+    }
+    @media ( max-width: 860px ) {
+        .container > .row {
+            width: 480px;
+            margin: 0 calc(50% - 240px);
+        }
+    }
+    @media ( max-width: 580px ) {
+        .container > .row {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+.bg-grey {
+    background-color: #F8F9FE;
+}
+.bg-blue {
+    background-color: #38468D;
+}
+.bg-black {
+    background-color: #313237;
+}
 
 /* HEADER + HERO */
 
