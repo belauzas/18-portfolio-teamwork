@@ -23,8 +23,16 @@ body * {
 
 
 /* How does it work */
-
-
+.container > #my-row {
+display: inline-block;
+width: 100%;
+background-color: #e3e2e2;
+}
+.container > #my-row > .column {
+display: inline-block;
+width: 100%;
+float: left;
+}
 /* text + photo */
 
 
