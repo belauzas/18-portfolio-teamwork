@@ -90,7 +90,35 @@ text-align: center;
 
 .container > #my-row > .column > img {
     margin: 20px 0;
+    height: 150px;
 }
+
+@media ( max-width: 1300px ) {
+    .container > #my-row > .column {
+        width: 220px;
+        margin: 0 calc(50% - 450px);
+    }
+}
+@media ( max-width: 1000px ) {
+    .container > #my-row > .column {
+        width: 220px;
+        margin: 0 calc(50% - 380px);
+    }
+}
+@media ( max-width: 860px ) {
+    .container > #my-row > .column {
+        width: 220px;
+        margin: 0 calc(50% - 240px);
+    }
+}
+@media ( max-width: 580px ) {
+    .container > #my-row > .column {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
 /* text + photo */
 
 
