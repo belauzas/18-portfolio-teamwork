@@ -1,0 +1,31 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+}
+    .container > .row {
+        display: inline-block;
+        width: 1200px;
+        margin: 0 calc(50% - 600px);
+    }
+
+/* HEADER + HERO */
+
+
+/* Who is this for? */
+
+
+/* How does it work */
+
+
+/* text + photo */
+
+
+/* footer */
