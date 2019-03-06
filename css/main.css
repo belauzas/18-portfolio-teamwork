@@ -18,6 +18,9 @@ body * {
 
 /* HEADER + HERO */
 
+.full-height{
+    min-height: 100vh;
+}
 
 /* Who is this for? */
 
