@@ -80,8 +80,8 @@ background-color: #F8F9FE;
 
 .container > #my-row > .column {
 display: inline-block;
-width: 25%;
-float: left;
+width: 220px;
+text-align: center;
 }
 
 .container > #my-row > .column > h1 {
