@@ -4,6 +4,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -15,12 +16,99 @@ body * {
         width: 1200px;
         margin: 0 calc(50% - 600px);
     }
+    @media ( max-width: 1300px ) {
+        .container > .row {
+            width: 900px;
+            margin: 0 calc(50% - 450px);
+        }
+    }
+    @media ( max-width: 1000px ) {
+        .container > .row {
+            width: 760px;
+            margin: 0 calc(50% - 380px);
+        }
+    }
+    @media ( max-width: 860px ) {
+        .container > .row {
+            width: 480px;
+            margin: 0 calc(50% - 240px);
+        }
+    }
+    @media ( max-width: 580px ) {
+        .container > .row {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+.bg-grey {
+    background-color: #F8F9FE;
+}
+.bg-blue {
+    background-color: #38468D;
+}
+.bg-black {
+    background-color: #313237;
+}
 
 /* HEADER + HERO */
 
-.full-height{
+/* .full-height{
     min-height: 100vh;
+} */
+
+.header{
+    text-align: center;
+    border-bottom: 1px solid #ffffff
 }
+.header> img{
+    height: 80px;
+   margin: 20px;
+}
+ .header-container{
+     display: inline-block;
+     width: calc(100% - 200px);
+     margin: 0 100px;
+    position: relative;
+     padding: 30px 0;
+ }
+ .header-container>.text{
+     display: inline-block;
+     width: 60%;
+     float: left;
+     margin-top: 100px;
+    
+ }
+ .header-container>.text > *{
+    color: #ffffff
+ }
+ .header-container>.text >.big{
+     font-size: 30px;
+ }
+ .header-container>.text >.small{
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .header-container>.hero-image{
+     display: inline-block;
+     width: 40%;
+     float: left;
+  
+ }
+ .header-container>.hero-image> img{
+     display: inline-block;
+     width: 90%
+ }
+  .scroll-btn {
+
+    text-align: center;
+    float: right;
+    margin-top: 230px;
+ }
+  .scroll-btn>img {
+     height: 30px;
+ }
 
 /* Who is this for? */
 
