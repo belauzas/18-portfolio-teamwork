@@ -162,12 +162,14 @@ text-align: center;
         width: 220px;
         margin: 0 calc(50% - 450px);
     }
+}
 
 @media ( max-width: 1000px ) {
     .container > #my-row > .column {
         width: 220px;
         margin: 0 calc(50% - 380px);
     }
+}
 
 @media ( max-width: 860px ) {
     .container > #my-row > .column {
