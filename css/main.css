@@ -1,3 +1,10 @@
+:root {
+    --text-black: #010A13;
+    --text-blue: #1E2B58;
+    --text-green: #2CC14B;
+    --text-grey: #78909C;
+}
+
 body,
 body * {
     margin: 0;
@@ -61,6 +68,70 @@ body * {
 
 
 /* text + photo */
+#text_photo > .row {
+    padding: 80px 0;
+}
+#text_photo .texts {
+    display: inline-block;
+    width: 45%;
+    float: left;
+}
+    #text_photo .texts > .header {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+        #text_photo .texts > .header > .number {
+            display: inline-block;
+            width: 40px;
+            float: left;
+            color: var(--text-blue);
+            font-size: 48px;
+            line-height: 50px;
+        }
+        #text_photo .texts > .header > .title {
+            display: inline-block;
+            width: calc(100% - 40px);
+            float: left;
+            text-transform: uppercase;
+            color: var(--text-green);
+            font-size: 16px;
+            line-height: 18px;
+            margin-top: 7px;
+        }
+        #text_photo .texts > .header > .sub-title {
+            display: inline-block;
+            width: calc(100% - 40px);
+            float: left;
+            font-size: 16px;
+            line-height: 18px;
+            color: var(--text-blue);
+        }
+    #text_photo .texts > p {
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--text-grey);
+    }
 
-
+#text_photo .images {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    position: relative;
+}
+    #text_photo .images > .gradient {
+        position: absolute;
+    }
+    #text_photo .images > img {
+        display: inline-block;
+        width: 80%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #text_photo .images > .icon {
+        position: absolute;
+    }
 /* footer */
