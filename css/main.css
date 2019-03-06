@@ -27,12 +27,33 @@ body * {
             width: 760px;
             margin: 0 calc(50% - 380px);
         }
+
+        .scroll-btn{
+            display: none;
+        }
     }
     @media ( max-width: 860px ) {
         .container > .row {
             width: 480px;
             margin: 0 calc(50% - 240px);
         }
+        .container > .row > .header-container {
+            width: 100%;
+            margin: 0;
+        }
+        .container > .row > .header-container >.text {
+            width: 100%;
+            margin-top: 20px;
+        }
+         
+        .container > .row > .header-container >.hero-image  {
+           display: none;
+        }
+        .container > .row > .header-container > .text> .scroll-btn  {
+            position: absolute;
+            bottom: 0;
+        }
+
     }
     @media ( max-width: 580px ) {
         .container > .row {
@@ -53,15 +74,19 @@ body * {
 
 /* HEADER + HERO */
 
-/* .full-height{
+.full-height{
     min-height: 100vh;
-} */
+}
 
-.header{
+#header{
+    color: #ffffff;
+}
+    .header{
+    width: 100%;
     text-align: center;
     border-bottom: 1px solid #ffffff
 }
-.header> img{
+#header .header> img{
     height: 80px;
    margin: 20px;
 }
@@ -72,16 +97,14 @@ body * {
     position: relative;
      padding: 30px 0;
  }
+ 
  .header-container>.text{
      display: inline-block;
      width: 60%;
      float: left;
      margin-top: 100px;
-    
  }
- .header-container>.text > *{
-    color: #ffffff
- }
+ 
  .header-container>.text >.big{
      font-size: 30px;
  }
@@ -101,10 +124,7 @@ body * {
      width: 90%
  }
   .scroll-btn {
-
     text-align: center;
-    float: right;
-    margin-top: 230px;
  }
   .scroll-btn>img {
      height: 30px;
