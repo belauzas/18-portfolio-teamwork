@@ -60,6 +60,62 @@ body * {
 
 /* HEADER + HERO */
 
+/* .full-height{
+    min-height: 100vh;
+} */
+
+.header{
+    text-align: center;
+    border-bottom: 1px solid #ffffff
+}
+.header> img{
+    height: 80px;
+   margin: 20px;
+}
+ .header-container{
+     display: inline-block;
+     width: calc(100% - 200px);
+     margin: 0 100px;
+    position: relative;
+     padding: 30px 0;
+ }
+ .header-container>.text{
+     display: inline-block;
+     width: 60%;
+     float: left;
+     margin-top: 100px;
+    
+ }
+ .header-container>.text > *{
+    color: #ffffff
+ }
+ .header-container>.text >.big{
+     font-size: 30px;
+ }
+ .header-container>.text >.small{
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .header-container>.hero-image{
+     display: inline-block;
+     width: 40%;
+     float: left;
+  
+ }
+ .header-container>.hero-image> img{
+     display: inline-block;
+     width: 90%
+ }
+  .scroll-btn {
+
+    text-align: center;
+    float: right;
+    margin-top: 230px;
+ }
+  .scroll-btn>img {
+     height: 30px;
+ }
 
 /* Who is this for? */
 
@@ -97,7 +153,35 @@ text-align: center;
 
 .container > #my-row > .column > img {
     margin: 20px 0;
+    height: 150px;
 }
+
+@media ( max-width: 1300px ) {
+    .container > #my-row > .column {
+        width: 220px;
+        margin: 0 calc(50% - 450px);
+    }
+}
+@media ( max-width: 1000px ) {
+    .container > #my-row > .column {
+        width: 220px;
+        margin: 0 calc(50% - 380px);
+    }
+}
+@media ( max-width: 860px ) {
+    .container > #my-row > .column {
+        width: 220px;
+        margin: 0 calc(50% - 240px);
+    }
+}
+@media ( max-width: 580px ) {
+    .container > #my-row > .column {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
 /* text + photo */
 #text_photo > .row {
     padding: 80px 0;
@@ -177,15 +261,14 @@ h1{
 }
 .company{
     display: inline-flex;
-    margin: 40px 25px;
-    
-   
+    margin: 10px 40px;
 }
-    .companies{
-        line-height: 15px;
-        font-size: 16px;
-        
-    }
+
+.companies{
+    line-height: 15px;
+    font-size: 16px;
+    margin: 50px 0px
+}
 
     .logos{
         width: 30px;
