@@ -52,7 +52,7 @@ body * {
             width: 100%;
             margin-top: 20px;
         }
-         
+
         .container > .row > .header-container >.hero-image  {
            display: none;
         }
@@ -141,6 +141,10 @@ body * {
 }
 
 /* Who is this for? */
+
+#who {
+    padding: 80px 0;
+}
 .item {
     display: inline-block;
     width: 200px;
@@ -291,7 +295,7 @@ body * {
 
 /* footer */
 .footer {
-    
+
     color:#FFFFFF;
     text-align: center;
     display: inline-block;
